@@ -1,0 +1,2 @@
+# fundamental
+learn remote work
