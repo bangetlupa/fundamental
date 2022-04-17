@@ -1,7 +1,7 @@
 #percabangan
 print('mom said:"please go to the shop and buy 1 bottle of milk, if they have eggs,bring 6')
-jumlah_susu = 10
-jumlah_telur = 4
+jumlah_susu = 1
+jumlah_telur = 6
 print(f'jumlah botol susu {jumlah_susu} btl')
 print(f'jumlah telur {jumlah_telur} butir')
 
