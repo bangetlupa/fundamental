@@ -33,7 +33,7 @@ while angka > 1:
     print('hendy keren')
     if angka == 2:
         print('terlihat lewat')
-        continue
+        continue #continue agar bybass langsung ke atas lagi
     print('itu benar')
 
 
