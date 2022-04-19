@@ -21,16 +21,16 @@ for i in angka2_range:
 print('akhir program 2')
 
 #menggunakan string
-data_str = "sendiri"
+data_str = 'sendiri'
 for huruf in data_str:
-    print(huruf)
+    print(f'huruf {huruf}')
 print('akhir program 4')
 #======================================
 #WHILE
 angka = 5
 while angka > 1:
     angka -= 1
-    print('hendy keren')
+    print(f'hendy keren {angka}')
     if angka == 2:
         print('terlihat lewat')
         continue #continue agar bybass langsung ke atas lagi
