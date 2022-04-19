@@ -1,5 +1,5 @@
 def tambah (x,y):
-    return tambah
+    return x + y
 def kurang(x, y):
     return x - y
 def kali(x, y):
