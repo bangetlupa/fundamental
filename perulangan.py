@@ -51,12 +51,16 @@ while True:
     elif stock > read:
         print('tolong baca sisa', tambah(stock, read), 'buku')
         sisa = input('sudah beraba kali sisa buku anda baca? ')
-        if sisa == '1':
+        if sisa =='1':
             print('baca satu kali lagi')
             break
-        elif sisa == '2':
-            print('sudah cukup tidak perlu di baca lagi')
+        elif sisa > '2':
+            print('sudah cukup tidak perlu di baca lagi maksimal 2 kali')
             break
+        elif sisa < '1':
+            print('tlg dibaca maksimal 2 kali')
+            break
+
 
     else:
         print('stock buku harus lebih besar atau sama dari yg dibaca')
