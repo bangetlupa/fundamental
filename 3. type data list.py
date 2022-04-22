@@ -1,1 +1,4 @@
-gorengan = 'tahu'
+gorengan = ('tahu,cireng,tempe,bakwan')
+print (gorengan)
+
+
