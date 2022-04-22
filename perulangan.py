@@ -36,7 +36,7 @@ while angka > 1:
         continue #continue agar bybass langsung ke atas lagi
     print('itu benar')
 #tes membuat prcabangan dengan while
-def tambah(x, y):
+def kurang(x, y):
     return x - y
 
 
@@ -49,12 +49,12 @@ while True:
         print('selamat anda sudah baca semua')
         break
     elif stock > read:
-        print('tolong baca sisa', tambah(stock, read), 'buku')
+        print('tolong baca sisa', kurang(stock, read), 'buku')
         sisa = input('sudah beraba kali sisa buku anda baca? ')
         if sisa =='1':
             print('baca satu kali lagi')
             break
-        elif sisa > '2':
+        elif sisa >= '2':
             print('sudah cukup tidak perlu di baca lagi maksimal 2 kali')
             break
         elif sisa < '1':
