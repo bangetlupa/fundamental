@@ -61,7 +61,6 @@ while True:
             print('tlg dibaca maksimal 2 kali')
             break
 
-
     else:
         print('stock buku harus lebih besar atau sama dari yg dibaca')
 
