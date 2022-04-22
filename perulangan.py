@@ -35,13 +35,10 @@ while angka > 1:
         print('terlihat lewat')
         continue #continue agar bybass langsung ke atas lagi
     print('itu benar')
-#tes membuat prcabangan dengan while
+#tes membuat percabangan dengan while
 def kurang(x, y):
     return x - y
-
-
 print("tolong baca total buku yg ada")
-
 while True:
     stock = float(input('stock buku : '))
     read = float(input('buku sudah di baca: '))
